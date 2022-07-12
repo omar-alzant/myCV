@@ -95,8 +95,8 @@ header .part2 ul{
   /* border: 3px solid rgb(93, 244, 24); */
   padding: 2px;
   display: grid;
-  grid-template-columns: 1fr 1fr; 
-  margin-right: 25px;
+  grid-template-columns: 1fr 1fr;
+  /* margin-right: 25px; */
 }
 
 header h1 {
@@ -183,7 +183,7 @@ header .contact-container li a {
   position: relative;
   top: 0;
   left: 0;
-  width: 70%;
+  width: 80%;
   padding: 25px 0 40px;
   border-right: 4px solid #e9b36e;
 }
