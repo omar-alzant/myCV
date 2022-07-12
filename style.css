@@ -25,11 +25,11 @@ ul {
 h1{
   font-size: large !important;
 }
-h2{
-  font-size: x-small !important;
+h2,h3{
+  font-size: small !important;
 }
-h3,h4,p,span,a{
-  font-size: xx-small !important;
+h4,p,span,a{
+  font-size: x-small !important;
 }
 /* h4{
   font-size: 0.2cm !important;
@@ -54,7 +54,7 @@ a,span{
 body {
   margin: 0;
   padding: 0;
-  background: lightgrey;
+  background: #b2cfed;
   color: #333;
   display: flex;
   justify-content: center;
@@ -68,7 +68,7 @@ body {
   margin: 20px;
   padding: 15px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  background: rgba(205, 202, 202, 0.823);
+  background: rgba(232, 212, 197, 0.886);
 }
 
 /* header */
@@ -82,6 +82,7 @@ header {
   /* border: 4px solid black; */
   justify-items: stretch;
   background-color: rgb(94, 140, 190);
+
 }
 
 header .part1{
@@ -190,15 +191,6 @@ header .contact-container li a {
 
 
 
-.project   ul {
-  list-style: disc;
-}
-
-.project li {
-  max-width: 25vw;
-  /* border: 1px solid yellow; */
-}
-
 #main .resume-item {
   position: relative;
   padding: 10px;
@@ -235,7 +227,7 @@ header .contact-container li a {
 }
 .experience .company {
   margin: 0 0 10px;
-  color: #959595;
+  color: rgb(70, 111, 155);;
   font-size: 13px;
   font-weight: normal;
 }
@@ -254,7 +246,7 @@ header .contact-container li a {
 /* project */
 .project ul {
   display: grid;
-  grid-template-columns: 45% 45%;
+  grid-template-columns: 45% 45%;  
 }
 .project li:nth-child(odd) {
   padding: 10px;
@@ -267,6 +259,7 @@ header .contact-container li a {
 .project ul li {
   /* font-size: 0; */
   line-height: 20px;
+  margin: 0;
 }
 .project h3 {
   position: relative;
@@ -283,9 +276,18 @@ header .contact-container li a {
 }
 .project .tags {
   font-size: 12px;
-  color: #999;
+  color: rgb(70, 111, 155);
 }
 
+
+.project   ul {
+  list-style: disc;
+}
+
+.project li {
+  max-width: 25vw;
+  /* border: 1px solid yellow; */
+}
 
 /* Educate */
 .educate .date {
